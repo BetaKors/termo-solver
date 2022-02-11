@@ -23,7 +23,6 @@ class Solver:
         self._configure_driver()
 
         self._words = self._load_words()
-        print(len(self._words))
         self._data = []
 
     def solve(self) -> bool:
