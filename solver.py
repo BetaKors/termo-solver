@@ -27,7 +27,7 @@ class Solver:
 
     def solve(self) -> bool:
         """
-        Tries to find the word of the day. Returns wheter or not it succeeded.
+        Tries to find the word of the day. Returns whether or not it succeeded.
         """
         for _ in range(6):
             word = self._choose_word()
